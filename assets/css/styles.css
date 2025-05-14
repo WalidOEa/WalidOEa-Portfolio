@@ -75,6 +75,17 @@ h1 {
     unicode-bidi: isolate;
 }
 
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
 p {
     display: block;
     margin-block-start: 1em;
@@ -82,4 +93,13 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     unicode-bidi: isolate;
+}
+
+.project-link {
+    text-decoration: none; 
+    color: inherit;        
+}
+  
+.project-link:hover {
+    color: orange; 
 }
