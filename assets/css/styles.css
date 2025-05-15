@@ -12,7 +12,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 800px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 0 20px;
     width: 100%;
@@ -103,6 +103,12 @@ p {
 .project-link:hover {
     color: orange; 
 }
+
+.tech-stack {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 1rem; /* optional, tweak as needed */
+  }
 
 ul {
     display: block;
