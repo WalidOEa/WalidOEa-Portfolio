@@ -184,3 +184,25 @@ nav, .footer-content {
     color: black;
     text-decoration: none;
 }
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+    transition: opacity 0.2s ease;
+  }
+  
+  .social-icon:hover {
+    opacity: 0.5;
+  }
+
+  .construction-icons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+  
+  .construction-icons img {
+    width: 40px; 
+    height: auto;
+  }
